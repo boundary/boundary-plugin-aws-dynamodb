@@ -1,0 +1,114 @@
+{
+    "result": [
+        {
+            "defaultAggregate": "AVG",
+            "defaultResolutionMS": 60000,
+            "description": "The number of read capacity units consumed over the specified time period, so you can track how much of your provisioned throughput is used.",
+            "displayName": "AWS DynamoDB - Consumed Read Capacity Units",
+            "displayNameShort": "AWS DynamoDB - CRCp",
+            "isDisabled": 0,
+            "name": "AWS_DYNAMODB_CONSUMED_READ_CAPACITY_UNITS",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "AVG",
+            "defaultResolutionMS": 60000,
+            "description": "The number of write capacity units consumed over the specified time period, so you can track how much of your provisioned throughput is used.",
+            "displayName": "AWS DynamoDB - Consumed Write Capacity Units",
+            "displayNameShort": "AWS DynamoDB - CWCp",
+            "isDisabled": 0,
+            "name": "AWS_DYNAMODB_CONSUMED_WRITE_CAPACITY_UNITS",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "AVG",
+            "defaultResolutionMS": 60000,
+            "description": "The number of provisioned read capacity units for a table.",
+            "displayName": "AWS DynamoDB - Provisioned Read Capacity Units",
+            "displayNameShort": "AWS Dynamodb - RCap",
+            "isDisabled": 0,
+            "name": "AWS_DYNAMODB_PROVISIONED_READ_CAPACITY_UNITS",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "AVG",
+            "defaultResolutionMS": 60000,
+            "description": "The number of provisioned write capacity units for a table.",
+            "displayName": "AWS DynamoDB - Provisioned Write Capacity Units",
+            "displayNameShort": "AWS DynamoDB - WCap",
+            "isDisabled": 0,
+            "name": "AWS_DYNAMODB_PROVISIONED_WRITE_CAPACITY_UNITS",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "AVG",
+            "defaultResolutionMS": 60000,
+            "description": "The number of read events that exceeded the preset provisioned throughput limits in the specified time period.",
+            "displayName": "AWS DynamoDB - Read Throttle Events",
+            "displayNameShort": "AWS DynamoDB - RThrt",
+            "isDisabled": 0,
+            "name": "AWS_DYNAMODB_READ_THROTTLE_EVENTS",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "AVG",
+            "defaultResolutionMS": 60000,
+            "description": "The number of items returned by a Scan or Query operation.",
+            "displayName": "AWS DynamoDB - Returned Item Count",
+            "displayNameShort": "AWS DynamoDB - RetI",
+            "isDisabled": 0,
+            "name": "AWS_DYNAMODB_RETURNED_ITEM_COUNT",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "AVG",
+            "defaultResolutionMS": 60000,
+            "description": "The number of successful requests in the specified time period. By default, SuccessfulRequestLatency provides the elapsed time for successful calls.",
+            "displayName": "AWS DynamoDB - Successful Request Latency",
+            "displayNameShort": "AWS DynamoDB - Ltnc",
+            "isDisabled": 0,
+            "name": "AWS_DYNAMODB_SUCCESSFUL_REQUEST_LATENCY",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "AVG",
+            "defaultResolutionMS": 60000,
+            "description": "The number of requests generating a 500 status code (likely indicating a server error) response in the specified time period.",
+            "displayName": "AWS DynamoDB - System Errors",
+            "displayNameShort": "AWS DynamoDB - SErr",
+            "isDisabled": 0,
+            "name": "AWS_DYNAMODB_SYSTEM_ERRORS",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "AVG",
+            "defaultResolutionMS": 60000,
+            "description": "The number of user requests that exceeded the preset provisioned throughput limits in the specified time period.",
+            "displayName": "AWS DynamoDB - Throttled Requests",
+            "displayNameShort": "AWS DynamoDB - TReq",
+            "isDisabled": 0,
+            "name": "AWS_DYNAMODB_THROTTLED_REQUESTS",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "AVG",
+            "defaultResolutionMS": 60000,
+            "description": "The number of requests generating a 400 status code (likely indicating a client error) response in the specified time period.",
+            "displayName": "AWS DynamoDB - User Errors",
+            "displayNameShort": "AWS DynamoDB - Err",
+            "isDisabled": 0,
+            "name": "AWS_DYNAMODB_USER_ERRORS",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "AVG",
+            "defaultResolutionMS": 60000,
+            "description": "The number of write events that exceeded the preset provisioned throughput limits in the specified time period.",
+            "displayName": "AWS DynamoDB - Write Throttle Events",
+            "displayNameShort": "AWS DynamoDB - WThr",
+            "isDisabled": 0,
+            "name": "AWS_DYNAMODB_WRITE_THROTTLE_EVENTS",
+            "unit": "number"
+        }
+    ]
+}
